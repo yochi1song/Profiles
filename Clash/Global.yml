@@ -536,6 +536,7 @@ Rule:
 - DOMAIN-SUFFIX,amazon.co.jp,PROXY
 - DOMAIN-SUFFIX,apigee.com,PROXY
 - DOMAIN-SUFFIX,apk-dl.com,PROXY
+- DOMAIN-SUFFIX,apkfind.com,PROXY
 - DOMAIN-SUFFIX,apkmirror.com,PROXY
 - DOMAIN-SUFFIX,apkmonk.com,PROXY
 - DOMAIN-SUFFIX,apkpure.com,PROXY
@@ -724,6 +725,7 @@ Rule:
 - DOMAIN-SUFFIX,scribd.com,PROXY
 - DOMAIN-SUFFIX,seatguru.com,PROXY
 - DOMAIN-SUFFIX,shadowsocks.org,PROXY
+- DOMAIN-SUFFIX,shopee.tw,PROXY
 - DOMAIN-SUFFIX,slideshare.net,PROXY
 - DOMAIN-SUFFIX,softfamous.com,PROXY
 - DOMAIN-SUFFIX,soundcloud.com,PROXY
@@ -760,6 +762,7 @@ Rule:
 - DOMAIN-SUFFIX,whoer.net,PROXY
 - DOMAIN-SUFFIX,wikimapia.org,PROXY
 - DOMAIN-SUFFIX,wikipedia.org,PROXY
+- DOMAIN-SUFFIX,winudf.com,PROXY
 - DOMAIN-SUFFIX,wire.com,PROXY
 - DOMAIN-SUFFIX,workflow.is,PROXY
 - DOMAIN-SUFFIX,worldcat.org,PROXY
