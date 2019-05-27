@@ -1009,6 +1009,7 @@ Rule:
 - DOMAIN-SUFFIX,qq.com,DIRECT
 - DOMAIN-SUFFIX,tencent.com,DIRECT
 # > Alibaba
+# USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 - DOMAIN-SUFFIX,alibaba.com,DIRECT
 - DOMAIN-SUFFIX,alicdn.com,DIRECT
 - DOMAIN-SUFFIX,alikunlun.com,DIRECT
@@ -1023,13 +1024,18 @@ Rule:
 - DOMAIN-SUFFIX,xiami.com,DIRECT
 - DOMAIN-SUFFIX,xiami.net,DIRECT
 # > NetEase
+# USER-AGENT,NeteaseMusic*,DIRECT
+# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
 - DOMAIN-SUFFIX,163.com,DIRECT
 - DOMAIN-SUFFIX,126.net,DIRECT
 - DOMAIN-SUFFIX,127.net,DIRECT
 - DOMAIN-SUFFIX,163yun.com,DIRECT
 - DOMAIN-SUFFIX,lofter.com,DIRECT
+- DOMAIN-SUFFIX,ydstatic.com,DIRECT
 # > Sohu
 - DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,sohucs.com,DIRECT
+- DOMAIN-SUFFIX,sohu-inc.com,DIRECT
 - DOMAIN-SUFFIX,v-56.com,DIRECT
 # > Sina
 - DOMAIN-SUFFIX,weibo.com,DIRECT
@@ -1056,8 +1062,10 @@ Rule:
 # > Meitu
 - DOMAIN-SUFFIX,meitu.com,DIRECT
 - DOMAIN-SUFFIX,meitudata.com,DIRECT
+- DOMAIN-SUFFIX,meitustat.com,DIRECT
 - DOMAIN-SUFFIX,meipai.com,DIRECT
 # > YYeTs
+# USER-AGENT,YYeTs*,DIRECT
 - DOMAIN-SUFFIX,jstucdn.com,DIRECT
 - DOMAIN-SUFFIX,zimuzu.io,DIRECT
 - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
@@ -1079,8 +1087,10 @@ Rule:
 # > ChinaNet
 - DOMAIN-SUFFIX,21cn.com,DIRECT
 # > ByteDance
+- DOMAIN-SUFFIX,feiliao.com,DIRECT
 - DOMAIN-SUFFIX,pstatp.com,DIRECT
 - DOMAIN-SUFFIX,snssdk.com,DIRECT
+- DOMAIN-SUFFIX,iesdouyin.com,DIRECT
 - DOMAIN-SUFFIX,toutiao.com,DIRECT
 # > 360
 - DOMAIN-SUFFIX,qhres.com,DIRECT
@@ -1109,12 +1119,15 @@ Rule:
 - DOMAIN,speedtest.macpaw.com,DIRECT
 # > Other
 - DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-SUFFIX,beitaichufang.com,DIRECT
 - DOMAIN-SUFFIX,cailianpress.com,DIRECT
+- DOMAIN-SUFFIX,chunyu.mobi,DIRECT
 - DOMAIN-SUFFIX,chushou.tv,DIRECT
 - DOMAIN-SUFFIX,cloudflare.com,DIRECT
 - DOMAIN-SUFFIX,cmbchina.com,DIRECT
 - DOMAIN-SUFFIX,cmbimg.com,DIRECT
 - DOMAIN-SUFFIX,dfcfw.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
 - DOMAIN-SUFFIX,doubanio.com,DIRECT
 - DOMAIN-SUFFIX,douyu.com,DIRECT
 - DOMAIN-SUFFIX,dxycdn.com,DIRECT
@@ -1128,19 +1141,23 @@ Rule:
 - DOMAIN-SUFFIX,keepcdn.com,DIRECT
 - DOMAIN-SUFFIX,kkmh.com,DIRECT
 - DOMAIN-SUFFIX,ksosoft.com,DIRECT
+- DOMAIN-SUFFIX,luojilab.com,DIRECT
 - DOMAIN-SUFFIX,maoyun.tv,DIRECT
 - DOMAIN-SUFFIX,meituan.net,DIRECT
 - DOMAIN-SUFFIX,mobike.com,DIRECT
 - DOMAIN-SUFFIX,mubu.com,DIRECT
 - DOMAIN-SUFFIX,myzaker.com,DIRECT
+- DOMAIN-SUFFIX,nvidia.com,DIRECT
 - DOMAIN-SUFFIX,paypal.com,DIRECT
 - DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+- DOMAIN-SUFFIX,ronghub.com,DIRECT
 - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
 - DOMAIN-SUFFIX,smzdm.com,DIRECT
 - DOMAIN-SUFFIX,snapdrop.net,DIRECT
 - DOMAIN-SUFFIX,sogo.com,DIRECT
 - DOMAIN-SUFFIX,sogou.com,DIRECT
 - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
 - DOMAIN-SUFFIX,teamviewer.com,DIRECT
 - DOMAIN-SUFFIX,tianyancha.com,DIRECT
 - DOMAIN-SUFFIX,udacity.com,DIRECT
@@ -1152,8 +1169,6 @@ Rule:
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
 - DOMAIN-SUFFIX,zhuihd.com,DIRECT
-# USER-AGENT,NeteaseMusic*,DIRECT
-# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
 
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT

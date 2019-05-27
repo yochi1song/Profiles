@@ -36,6 +36,7 @@ USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tencent.com
 # > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alikunlun.com
@@ -50,13 +51,18 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 # > NetEase
+USER-AGENT,NeteaseMusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,lofter.com
+DOMAIN-SUFFIX,ydstatic.com
 # > Sohu
 DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,sohucs.com
+DOMAIN-SUFFIX,sohu-inc.com
 DOMAIN-SUFFIX,v-56.com
 # > Sina
 DOMAIN-SUFFIX,weibo.com
@@ -83,8 +89,10 @@ DOMAIN-SUFFIX,mgtv.com
 # > Meitu
 DOMAIN-SUFFIX,meitu.com
 DOMAIN-SUFFIX,meitudata.com
+DOMAIN-SUFFIX,meitustat.com
 DOMAIN-SUFFIX,meipai.com
 # > YYeTs
+USER-AGENT,YYeTs*
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zimuzu.tv
@@ -92,7 +100,6 @@ DOMAIN-SUFFIX,zmz2019.com
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
-USER-AGENT,YYeTs*
 # > 蛋蛋赞
 DOMAIN-SUFFIX,baduziyuan.com
 DOMAIN-SUFFIX,com-hs-hkdy.com
@@ -107,8 +114,10 @@ DOMAIN-SUFFIX,bdstatic.com
 # > ChinaNet
 DOMAIN-SUFFIX,21cn.com
 # > ByteDance
+DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,toutiao.com
 # > 360
 DOMAIN-SUFFIX,qhres.com
@@ -137,12 +146,15 @@ DOMAIN,ip.bjango.com
 DOMAIN,speedtest.macpaw.com
 # > Other
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,beitaichufang.com
 DOMAIN-SUFFIX,cailianpress.com
+DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,dfcfw.com
+DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,dxycdn.com
@@ -156,19 +168,23 @@ DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,keepcdn.com
 DOMAIN-SUFFIX,kkmh.com
 DOMAIN-SUFFIX,ksosoft.com
+DOMAIN-SUFFIX,luojilab.com
 DOMAIN-SUFFIX,maoyun.tv
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,mobike.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myzaker.com
+DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,ronghub.com
 DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snapdrop.net
 DOMAIN-SUFFIX,sogo.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
+DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,udacity.com
@@ -180,5 +196,3 @@ DOMAIN-SUFFIX,zhangzishi.cc
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhuihd.com
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
