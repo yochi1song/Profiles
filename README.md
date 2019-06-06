@@ -1,16 +1,22 @@
 ### 简介
 
-配置规则文件（订阅 [Telegram 频道](https://t.me/DivineEngine_Profiles) 获取更多信息）
+配置规则文件
 
 macOS：[Surge](https://nssurge.com/) | [ClashX](https://github.com/yichengchen/clashX)
 
+Windows：[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
+
 iOS：[Surge](https://itunes.apple.com/app/apple-store/id1329879957?mt=8) | [Quantumult](https://itunes.apple.com/app/apple-store/id1252015438?mt=8) | [Kitsunebi](https://itunes.apple.com/app/apple-store/id1446584073?mt=8) | [Shadowrocket](https://itunes.apple.com/app/apple-store/id932747118?mt=8) | [Pepi(ShadowRay)](https://itunes.apple.com/app/apple-store/id1283082051?mt=8) 
 
-Windows：[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
+Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=zh) | [Surfboard](https://manual.getsurfboard.com/cn/introduction)
+
+## 说明
+
+[使用说明 & 常见问题](https://github.com/ConnersHua/Profiles/wiki) | [导入教程](https://github.com/ConnersHua/Profiles/wiki/%E8%A7%84%E5%88%99%E6%80%8E%E4%B9%88%E5%AF%BC%E5%85%A5%E5%92%8C%E6%9B%B4%E6%96%B0%EF%BC%9F%E6%8D%B7%E5%BE%84%E5%92%8C%E8%87%AA%E5%AE%9A%E4%B9%89%E8%A7%84%E5%88%99%E6%80%8E%E4%B9%88%E7%94%A8%EF%BC%9F) | [Telegram 频道](https://t.me/DivineEngine_Profiles)
 
 ### 规则
 
-规则分为标准版、专业版和回国版
+规则分为**标准版**、**专业版**和**回国版**
 
 **标准版**
 
@@ -42,10 +48,6 @@ Windows：[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
 | Shadowrocket \| Pepi \| [快捷指令](https://www.icloud.com/shortcuts/b50d84fb063e469891f8600ab089a684) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Pro.conf) | [China](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/China.conf) |
 | Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [China](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/China.conf) |
 | Surge 3 \| [快捷指令](https://www.icloud.com/shortcuts/5e2e1a366a5e457ca60170925736ba68) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
-
-### 使用说明 & 常见问题
-
-若有不明之处及提问前请先查阅 [Wiki](https://github.com/ConnersHua/Profiles/wiki)
 
 ### 感谢
 
