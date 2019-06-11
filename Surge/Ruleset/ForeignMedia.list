@@ -60,6 +60,7 @@ DOMAIN,content.jwplatform.com
 DOMAIN,videos-f.jwpsrv.com
 # > ViuTV
 USER-AGENT,ViuTV*
+DOMAIN-SUFFIX,nowe.com
 DOMAIN-SUFFIX,viu.tv
 DOMAIN,api.viu.now.com
 # > (JP)
