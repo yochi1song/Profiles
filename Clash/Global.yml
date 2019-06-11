@@ -567,6 +567,7 @@ Rule:
 - DOMAIN-SUFFIX,bloglovin.com,PROXY
 - DOMAIN-SUFFIX,bloomberg.cn,PROXY
 - DOMAIN-SUFFIX,bloomberg.com,PROXY
+- DOMAIN-SUFFIX,blubrry.com,PROXY
 - DOMAIN-SUFFIX,book.com.tw,PROXY
 - DOMAIN-SUFFIX,booklive.jp,PROXY
 - DOMAIN-SUFFIX,books.com.tw,PROXY
@@ -576,6 +577,7 @@ Rule:
 - DOMAIN-SUFFIX,bwh1.net,PROXY
 - DOMAIN-SUFFIX,castbox.fm,PROXY
 - DOMAIN-SUFFIX,cbc.ca,PROXY
+- DOMAIN-SUFFIX,cccat.cc,PROXY
 - DOMAIN-SUFFIX,cdw.com,PROXY
 - DOMAIN-SUFFIX,change.org,PROXY
 - DOMAIN-SUFFIX,ck101.com,PROXY
@@ -701,6 +703,7 @@ Rule:
 - DOMAIN-SUFFIX,ok.ru,PROXY
 - DOMAIN-SUFFIX,okex.com,PROXY
 - DOMAIN-SUFFIX,orientaldaily.com.my,PROXY
+- DOMAIN-SUFFIX,overcast.fm,PROXY
 - DOMAIN-SUFFIX,paltalk.com,PROXY
 - DOMAIN-SUFFIX,pbxes.com,PROXY
 - DOMAIN-SUFFIX,pcdvd.com.tw,PROXY
@@ -738,11 +741,13 @@ Rule:
 - DOMAIN-SUFFIX,startpage.com,PROXY
 - DOMAIN-SUFFIX,steamcommunity.com,PROXY
 - DOMAIN-SUFFIX,steemit.com,PROXY
+- DOMAIN-SUFFIX,steemitwallet.com,PROXY
 - DOMAIN-SUFFIX,t66y.com,PROXY
 - DOMAIN-SUFFIX,tapatalk.com,PROXY
 - DOMAIN-SUFFIX,teco-hk.org,PROXY
 - DOMAIN-SUFFIX,teco-mo.org,PROXY
 - DOMAIN-SUFFIX,teddysun.com,PROXY
+- DOMAIN-SUFFIX,theguardian.com,PROXY
 - DOMAIN-SUFFIX,theinitium.com,PROXY
 - DOMAIN-SUFFIX,tineye.com,PROXY
 - DOMAIN-SUFFIX,torproject.org,PROXY
@@ -775,8 +780,11 @@ Rule:
 - DOMAIN-SUFFIX,wsj.com,PROXY
 - DOMAIN-SUFFIX,wsj.net,PROXY
 - DOMAIN-SUFFIX,xboxlive.com,PROXY
+- DOMAIN-SUFFIX,xhamster.com,PROXY
+- DOMAIN-SUFFIX,xnxx.com,PROXY
 - DOMAIN-SUFFIX,xvideos.com,PROXY
 - DOMAIN-SUFFIX,yahoo.com,PROXY
+- DOMAIN-SUFFIX,yandex.ru,PROXY
 - DOMAIN-SUFFIX,yesasia.com,PROXY
 - DOMAIN-SUFFIX,yes-news.com,PROXY
 - DOMAIN-SUFFIX,yomiuri.co.jp,PROXY
@@ -950,6 +958,7 @@ Rule:
 - DOMAIN-SUFFIX,signal.org,PROXY
 - DOMAIN-SUFFIX,sparknotes.com,PROXY
 - DOMAIN-SUFFIX,streetvoice.com,PROXY
+- DOMAIN-SUFFIX,supertop.co,PROXY
 - DOMAIN-SUFFIX,ttvnw.net,PROXY
 - DOMAIN-SUFFIX,tv.com,PROXY
 - DOMAIN-SUFFIX,twitchcdn.net,PROXY
