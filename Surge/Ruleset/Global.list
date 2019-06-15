@@ -363,21 +363,26 @@ USER-AGENT,Roam*
 
 # (The Most Popular Sites)
 # > Apple
-# > Apple URL Shortener
+# >> Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
-# > TestFlight
+# >> TestFlight
 DOMAIN,beta.itunes.apple.com
-# > iBooks Store download
+# >> iBooks Store download
 DOMAIN,books.itunes.apple.com
-# > iTunes Store Moveis Trailers
+# >> iTunes Store Moveis Trailers
 DOMAIN,hls.itunes.apple.com
-# App Store Preview
+# >> App Store Preview
 DOMAIN,itunes.apple.com
-# > Spotlight
+# >> Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com
-# > Dictionary
+# >> Dictionary
 DOMAIN,lookup-api.apple.com
 PROCESS-NAME,LookupViewService
+# >> Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
 # > Google
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com

@@ -851,19 +851,19 @@ Rule:
 
 # (The Most Popular Sites)
 # > Apple
-# > Apple URL Shortener
+# >> Apple URL Shortener
 - DOMAIN-SUFFIX,appsto.re,PROXY
-# > TestFlight
+# >> TestFlight
 - DOMAIN,beta.itunes.apple.com,PROXY
-# > iBooks Store download
+# >> iBooks Store download
 - DOMAIN,books.itunes.apple.com,PROXY
-# > iTunes Store Moveis Trailers
+# >> iTunes Store Moveis Trailers
 - DOMAIN,hls.itunes.apple.com,PROXY
-# App Store Preview
+# >> App Store Preview
 - DOMAIN,itunes.apple.com,PROXY
-# > Spotlight
+# >> Spotlight
 - DOMAIN,api-glb-sea.smoot.apple.com,PROXY
-# > Dictionary
+# >> Dictionary
 - DOMAIN,lookup-api.apple.com,PROXY
 # PROCESS-NAME,LookupViewService,PROXY
 # > Google
@@ -972,29 +972,17 @@ Rule:
 - DOMAIN-SUFFIX,yimg.com,PROXY
 
 # China Area Network
-# > App Store Download || iBooks Sample
-- DOMAIN-SUFFIX,itunes.apple.com,Apple
-# > Apple Music
-- DOMAIN,aod.itunes.apple.com,Apple
-- DOMAIN,audio.itunes.apple.com,Apple
-- DOMAIN,audio-ssl.itunes.apple.com,Apple
-- DOMAIN,streamingaudio.itunes.apple.com,Apple
-# > Apple TV
-- DOMAIN,ocvideo.apple.com,Apple
-# > Apple News and Apple Map TOMTOM Version
-- DOMAIN,gspe1-ssl.ls.apple.com,Apple
-# PROCESS-NAME,News,Apple
 # > Apple
 - DOMAIN-SUFFIX,aaplimg.com,Apple
-- DOMAIN-SUFFIX,apple.co,DIRECT
-- DOMAIN-SUFFIX,apple.com,DIRECT
-- DOMAIN-SUFFIX,appstore.com,DIRECT
+- DOMAIN-SUFFIX,apple.co,Apple
+- DOMAIN-SUFFIX,apple.com,Apple
+- DOMAIN-SUFFIX,appstore.com,Apple
 - DOMAIN-SUFFIX,cdn-apple.com,Apple
-- DOMAIN-SUFFIX,crashlytics.com,DIRECT
-- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,crashlytics.com,Apple
+- DOMAIN-SUFFIX,icloud.com,Apple
 - DOMAIN-SUFFIX,icloud-content.com,Apple
-- DOMAIN-SUFFIX,me.com,DIRECT
-- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,me.com,Apple
+- DOMAIN-SUFFIX,mzstatic.com,Apple
 # > Microsoft
 - DOMAIN-SUFFIX,microsoft.com,DIRECT
 - DOMAIN-SUFFIX,msecnd.net,DIRECT

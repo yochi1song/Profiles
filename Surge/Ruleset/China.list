@@ -1,12 +1,4 @@
 # China Area Network
-# > Apple
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msecnd.net
