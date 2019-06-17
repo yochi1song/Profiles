@@ -866,6 +866,15 @@ Rule:
 # >> Dictionary
 - DOMAIN,lookup-api.apple.com,PROXY
 # PROCESS-NAME,LookupViewService,PROXY
+# >> Apple News and Apple Map TOMTOM Version
+- DOMAIN,gspe1-ssl.ls.apple.com,PROXY
+# USER-AGENT,AppleNews*,PROXY
+# USER-AGENT,com.apple.news*,PROXY
+- DOMAIN-SUFFIX,apple.news,PROXY
+- DOMAIN,news-client.apple.com,PROXY
+- DOMAIN,news-edge.apple.com,PROXY
+- DOMAIN,news-events.apple.com,PROXY
+- DOMAIN,apple.comscoreresearch.com,PROXY
 # > Google
 - DOMAIN-SUFFIX,abc.xyz,PROXY
 - DOMAIN-SUFFIX,android.com,PROXY
