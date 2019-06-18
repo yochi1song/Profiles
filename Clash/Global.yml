@@ -98,7 +98,7 @@ Proxy:
   port: 443
   cipher: AEAD_CHACHA20_POLY1305
   password: "password"
-  plugin: obfs
+  plugin: v2ray-plugin
   plugin-opts:
     mode: websocket # no QUIC now
     # tls: true # wss
