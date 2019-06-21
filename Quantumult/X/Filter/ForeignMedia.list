@@ -1,0 +1,126 @@
+# (ForeignMedia)
+# (Video)
+# > Youtube
+USER-AGENT,com.google.ios.youtube*,ForeignMedia
+USER-AGENT,YouTube*,ForeignMedia
+DOMAIN-SUFFIX,googlevideo.com,ForeignMedia,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,ForeignMedia,force-remote-dns
+DOMAIN,youtubei.googleapis.com,ForeignMedia,force-remote-dns
+# > Netflix
+USER-AGENT,Argo*,ForeignMedia
+DOMAIN-SUFFIX,netflix.com,ForeignMedia
+DOMAIN-SUFFIX,netflix.net,ForeignMedia
+DOMAIN-SUFFIX,nflxext.com,ForeignMedia
+DOMAIN-SUFFIX,nflximg.com,ForeignMedia
+DOMAIN-SUFFIX,nflximg.net,ForeignMedia
+DOMAIN-SUFFIX,nflxso.net,ForeignMedia
+DOMAIN-SUFFIX,nflxvideo.net,ForeignMedia
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,ForeignMedia
+DOMAIN-SUFFIX,pornhub.com,ForeignMedia,force-remote-dns
+# > Amazon Prime Video (US|JP)
+USER-AGENT,InstantVideo.US*,ForeignMedia
+USER-AGENT,Prime%20Video*,ForeignMedia
+# > Fox+ (HK|TW|SG)
+USER-AGENT,FOXPlus*,ForeignMedia
+DOMAIN-SUFFIX,foxplus.com,ForeignMedia
+DOMAIN-SUFFIX,theplatform.com,ForeignMedia
+DOMAIN-SUFFIX,staticasiafox.akamaized.net,ForeignMedia
+DOMAIN-SUFFIX,dashasiafox.akamaized.net,ForeignMedia
+# > (US)
+# > HBO Now & HBO GO
+USER-AGENT,HBO%20NOW*,ForeignMedia
+DOMAIN-SUFFIX,hbo.com,ForeignMedia
+DOMAIN-SUFFIX,hbogo.com,ForeignMedia
+DOMAIN-SUFFIX,hboasia.com,ForeignMedia
+DOMAIN-SUFFIX,hbogo.com,ForeignMedia
+DOMAIN-SUFFIX,hbogoasia.hk,ForeignMedia
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,ForeignMedia
+DOMAIN-SUFFIX,huluim.com,ForeignMedia
+DOMAIN-SUFFIX,hulustream.com,ForeignMedia
+# > PBS
+USER-AGENT,PBS*,ForeignMedia
+DOMAIN-SUFFIX,pbs.org,ForeignMedia
+# > Fox Now
+USER-AGENT,FOX%20NOW*,ForeignMedia
+DOMAIN-SUFFIX,fox.com,ForeignMedia
+DOMAIN-SUFFIX,foxdcg.com,ForeignMedia
+DOMAIN-SUFFIX,uplynk.com,ForeignMedia
+# > (UK)
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,ForeignMedia
+DOMAIN-SUFFIX,bbc.co.uk,ForeignMedia,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,ForeignMedia,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt,ForeignMedia
+DOMAIN-KEYWORD,uk-live,ForeignMedia
+# > All4
+USER-AGENT,All4*,ForeignMedia
+DOMAIN-SUFFIX,c4assets.com,ForeignMedia
+DOMAIN-SUFFIX,channel4.com,ForeignMedia
+# > (HK)
+# > myTV_SUPER
+USER-AGENT,mytv*,ForeignMedia
+DOMAIN-SUFFIX,mytvsuper.com,ForeignMedia
+DOMAIN-SUFFIX,tvb.com,ForeignMedia
+# > encoreTVB
+USER-AGENT,encoreTVB*,ForeignMedia
+DOMAIN-SUFFIX,encoretvb.com,ForeignMedia
+DOMAIN,content.jwplatform.com,ForeignMedia
+DOMAIN,videos-f.jwpsrv.com,ForeignMedia
+# > ViuTV
+USER-AGENT,ViuTV*,ForeignMedia
+DOMAIN-SUFFIX,viu.tv,ForeignMedia
+DOMAIN-SUFFIX,nowe.com,ForeignMedia
+DOMAIN,api.viu.now.com,ForeignMedia
+# > (JP)
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp,ForeignMedia
+DOMAIN-SUFFIX,hulu.jp,ForeignMedia
+# > AbemaTV
+USER-AGENT,AbemaTV*,ForeignMedia
+DOMAIN-SUFFIX,abema.io,ForeignMedia
+DOMAIN-SUFFIX,ameba.jp,ForeignMedia
+DOMAIN-SUFFIX,hayabusa.io,ForeignMedia
+DOMAIN,abematv.akamaized.net,ForeignMedia
+DOMAIN,ds-linear-abematv.akamaized.net,ForeignMedia
+DOMAIN,ds-vod-abematv.akamaized.net,ForeignMedia
+DOMAIN,linear-abematv.akamaized.net,ForeignMedia
+# > (TW)
+# > Bahamut
+USER-AGENT,Anime*,ForeignMedia
+DOMAIN-SUFFIX,bahamut.com.tw,ForeignMedia
+DOMAIN-SUFFIX,gamer.com.tw,ForeignMedia
+DOMAIN,gamer-cds.cdn.hinet.net,ForeignMedia
+DOMAIN,gamer2-cds.cdn.hinet.net,ForeignMedia
+# > KKTV
+USER-AGENT,KKTV*,ForeignMedia
+USER-AGENT,com.kktv.ios.kktv*,ForeignMedia
+DOMAIN-SUFFIX,kktv.com.tw,ForeignMedia
+DOMAIN-SUFFIX,kktv.me,ForeignMedia
+DOMAIN,kktv-theater.kk.stream,ForeignMedia
+# > Line TV
+USER-AGENT,LINE%20TV*,ForeignMedia
+DOMAIN-SUFFIX,linetv.tw,ForeignMedia
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,ForeignMedia
+# > LiTV
+DOMAIN-SUFFIX,litv.tv,ForeignMedia
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,ForeignMedia
+
+# (Music)
+# > Spotify
+USER-AGENT,Spotify*,ForeignMedia
+DOMAIN-SUFFIX,pscdn.co,ForeignMedia
+DOMAIN-SUFFIX,scdn.co,ForeignMedia
+DOMAIN-SUFFIX,spotify.com,ForeignMedia
+DOMAIN-SUFFIX,spoti.fi,ForeignMedia
+# > JOOX
+USER-AGENT,WeMusic*,ForeignMedia
+USER-AGENT,JOOX*,ForeignMedia
+DOMAIN-SUFFIX,joox.com,ForeignMedia
+# > Pandora
+DOMAIN-SUFFIX,pandora.com,ForeignMedia
+# > KKBOX(HK|MO|TW|JP|SG|MY)
+DOMAIN-SUFFIX,kkbox.com,ForeignMedia
+DOMAIN-SUFFIX,kkbox.com.tw,ForeignMedia
+DOMAIN-SUFFIX,kfs.io,ForeignMedia

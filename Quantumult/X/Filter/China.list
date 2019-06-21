@@ -1,0 +1,189 @@
+# > Microsoft
+DOMAIN-SUFFIX,microsoft.com,China
+DOMAIN-SUFFIX,msecnd.net,China
+DOMAIN-SUFFIX,msedge.net,China
+DOMAIN-SUFFIX,office.com,China
+DOMAIN-SUFFIX,outlookmobile.com,China
+DOMAIN-SUFFIX,sfx.ms,China
+DOMAIN-SUFFIX,sharepoint.com,China
+DOMAIN-SUFFIX,s-microsoft.com,China
+DOMAIN-SUFFIX,visualstudio.com,China
+DOMAIN-SUFFIX,windows.net,China
+DOMAIN-KEYWORD,officecdn,China
+# > Blizzard
+DOMAIN-SUFFIX,blizzard.com,China
+DOMAIN-SUFFIX,battle.net,China
+DOMAIN,blzddist1-a.akamaihd.net,China
+# > Steam
+DOMAIN-SUFFIX,steampowered.com,China
+DOMAIN-SUFFIX,steam-chat.com,China
+DOMAIN-KEYWORD,steamcdn,China
+DOMAIN-KEYWORD,steamstore,China
+DOMAIN-KEYWORD,steamuserimages,China
+DOMAIN-KEYWORD,steambroadcast,China
+# > Tencent
+USER-AGENT,MicroMessenger%20Client,China
+USER-AGENT,WeChat*,China
+DOMAIN-SUFFIX,qq.com,China
+DOMAIN-SUFFIX,tencent.com,China
+# > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*,China
+DOMAIN-SUFFIX,alibaba.com,China
+DOMAIN-SUFFIX,alicdn.com,China
+DOMAIN-SUFFIX,alikunlun.com,China
+DOMAIN-SUFFIX,alipay.com,China
+DOMAIN-SUFFIX,amap.com,China
+DOMAIN-SUFFIX,dingtalk.com,China
+DOMAIN-SUFFIX,taobao.com,China
+DOMAIN-SUFFIX,tmall.com,China
+DOMAIN-SUFFIX,tmall.hk,China
+DOMAIN-SUFFIX,ykimg.com,China
+DOMAIN-SUFFIX,youku.com,China
+DOMAIN-SUFFIX,xiami.com,China
+DOMAIN-SUFFIX,xiami.net,China
+# > NetEase
+USER-AGENT,NeteaseMusic*,China
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,China
+DOMAIN-SUFFIX,163.com,China
+DOMAIN-SUFFIX,126.net,China
+DOMAIN-SUFFIX,127.net,China
+DOMAIN-SUFFIX,163yun.com,China
+DOMAIN-SUFFIX,lofter.com,China
+DOMAIN-SUFFIX,ydstatic.com,China
+# > Sohu
+DOMAIN-SUFFIX,sohu.com,China
+DOMAIN-SUFFIX,sohucs.com,China
+DOMAIN-SUFFIX,sohu-inc.com,China
+DOMAIN-SUFFIX,v-56.com,China
+# > Sina
+DOMAIN-SUFFIX,weibo.com,China
+# > JD
+DOMAIN-SUFFIX,jd.com,China
+DOMAIN-SUFFIX,jd.hk,China
+DOMAIN-SUFFIX,360buyimg.com,China
+# > MI
+DOMAIN-SUFFIX,duokan.com,China
+DOMAIN-SUFFIX,mi-img.com,China
+DOMAIN-SUFFIX,miui.com,China
+DOMAIN-SUFFIX,xiaomi.com,China
+# > bilibili
+DOMAIN-SUFFIX,acgvideo.com,China
+DOMAIN-SUFFIX,biliapi.com,China
+DOMAIN-SUFFIX,hdslb.com,China
+# > iQiyi
+DOMAIN-SUFFIX,iqiyipic.com,China
+DOMAIN-SUFFIX,71.am.com,China
+# > HunanTV
+DOMAIN-SUFFIX,hitv.com,China
+DOMAIN-SUFFIX,mgtv.com,China
+# > Meitu
+DOMAIN-SUFFIX,meitu.com,China
+DOMAIN-SUFFIX,meitudata.com,China
+DOMAIN-SUFFIX,meitustat.com,China
+DOMAIN-SUFFIX,meipai.com,China
+# > YYeTs
+USER-AGENT,YYeTs*,China
+DOMAIN-SUFFIX,jstucdn.com,China
+DOMAIN-SUFFIX,zimuzu.io,China
+DOMAIN-SUFFIX,zimuzu.tv,China
+DOMAIN-SUFFIX,zmz2019.com,China
+DOMAIN-SUFFIX,zmzapi.com,China
+DOMAIN-SUFFIX,zmzapi.net,China
+DOMAIN-SUFFIX,zmzfile.com,China
+# > 蛋蛋赞
+DOMAIN-SUFFIX,baduziyuan.com,China
+DOMAIN-SUFFIX,com-hs-hkdy.com,China
+DOMAIN-SUFFIX,czybjz.com,China
+DOMAIN-SUFFIX,dandanzan.com,China
+DOMAIN-SUFFIX,fjhps.com,China
+DOMAIN-SUFFIX,kuyunbo.club,China
+# > Baidu
+DOMAIN-SUFFIX,baidu.com,China
+DOMAIN-SUFFIX,baidubcr.com,China
+DOMAIN-SUFFIX,bdstatic.com,China
+# > ChinaNet
+DOMAIN-SUFFIX,21cn.com,China
+# > ByteDance
+DOMAIN-SUFFIX,feiliao.com,China
+DOMAIN-SUFFIX,pstatp.com,China
+DOMAIN-SUFFIX,snssdk.com,China
+DOMAIN-SUFFIX,iesdouyin.com,China
+DOMAIN-SUFFIX,toutiao.com,China
+# > 360
+DOMAIN-SUFFIX,qhres.com,China
+DOMAIN-SUFFIX,qhimg.com,China
+# > Akamai
+DOMAIN-SUFFIX,akadns.net,China
+# DOMAIN-SUFFIX,akamai.net,China
+# DOMAIN-SUFFIX,akamaiedge.net,China
+# DOMAIN-SUFFIX,akamaihd.net,China
+# DOMAIN-SUFFIX,akamaistream.net,China
+# DOMAIN-SUFFIX,akamaized.net,China
+# > ChinaNetCenter
+DOMAIN-SUFFIX,chinanetcenter.com,China
+DOMAIN-SUFFIX,wangsu.com,China
+# > IP Query
+DOMAIN-SUFFIX,ipip.net,China
+DOMAIN-SUFFIX,ip.la,China
+DOMAIN-SUFFIX,ip-cdn.com,China
+DOMAIN-SUFFIX,ipv6-test.com,China
+DOMAIN-SUFFIX,test-ipv6.com,China
+DOMAIN-SUFFIX,whatismyip.com,China
+DOMAIN,ip.bjango.com,China
+# > Speed Test
+# DOMAIN-SUFFIX,speedtest.net,China
+# DOMAIN-SUFFIX,netspeedtestmaster.com,China
+DOMAIN,speedtest.macpaw.com,China
+# > Other
+DOMAIN-SUFFIX,cn,China
+DOMAIN-SUFFIX,aixifan.com,China
+DOMAIN-SUFFIX,beitaichufang.com,China
+DOMAIN-SUFFIX,cailianpress.com,China
+DOMAIN-SUFFIX,chunyu.mobi,China
+DOMAIN-SUFFIX,chushou.tv,China
+DOMAIN-SUFFIX,cloudflare.com,China
+DOMAIN-SUFFIX,cmbchina.com,China
+DOMAIN-SUFFIX,cmbimg.com,China
+DOMAIN-SUFFIX,dfcfw.com,China
+DOMAIN-SUFFIX,douban.com,China
+DOMAIN-SUFFIX,doubanio.com,China
+DOMAIN-SUFFIX,douyu.com,China
+DOMAIN-SUFFIX,dxycdn.com,China
+DOMAIN-SUFFIX,eastmoney.com,China
+DOMAIN-SUFFIX,futunn.com,China
+DOMAIN-SUFFIX,geilicdn.com,China
+DOMAIN-SUFFIX,hicloud.com,China
+DOMAIN-SUFFIX,huya.com,China
+DOMAIN-SUFFIX,infinitynewtab.com,China
+DOMAIN-SUFFIX,ithome.com,China
+DOMAIN-SUFFIX,keepcdn.com,China
+DOMAIN-SUFFIX,kkmh.com,China
+DOMAIN-SUFFIX,ksosoft.com,China
+DOMAIN-SUFFIX,luojilab.com,China
+DOMAIN-SUFFIX,maoyun.tv,China
+DOMAIN-SUFFIX,meituan.net,China
+DOMAIN-SUFFIX,mobike.com,China
+DOMAIN-SUFFIX,mubu.com,China
+DOMAIN-SUFFIX,myzaker.com,China
+DOMAIN-SUFFIX,nvidia.com,China
+DOMAIN-SUFFIX,paypal.com,China
+DOMAIN-SUFFIX,paypalobjects.com,China
+DOMAIN-SUFFIX,ronghub.com,China
+DOMAIN-SUFFIX,ruguoapp.com,China
+DOMAIN-SUFFIX,smzdm.com,China
+DOMAIN-SUFFIX,snapdrop.net,China
+DOMAIN-SUFFIX,sogo.com,China
+DOMAIN-SUFFIX,sogou.com,China
+DOMAIN-SUFFIX,sogoucdn.com,China
+DOMAIN-SUFFIX,sspai.com,China
+DOMAIN-SUFFIX,teamviewer.com,China
+DOMAIN-SUFFIX,tianyancha.com,China
+DOMAIN-SUFFIX,udacity.com,China
+DOMAIN-SUFFIX,weather.com,China
+DOMAIN-SUFFIX,weidian.com,China
+DOMAIN-SUFFIX,xmcdn.com,China
+DOMAIN-SUFFIX,yangkeduo.com,China
+DOMAIN-SUFFIX,zhangzishi.cc,China
+DOMAIN-SUFFIX,zhihu.com,China
+DOMAIN-SUFFIX,zhimg.com,China
+DOMAIN-SUFFIX,zhuihd.com,China
