@@ -400,10 +400,8 @@ DOMAIN,itunes.apple.com,Global
 DOMAIN,api-glb-sea.smoot.apple.com,Global
 # >> Dictionary
 DOMAIN,lookup-api.apple.com,Global
-PROCESS-NAME,LookupViewService,Global
 # >> Apple News and Apple Map TOMTOM Version
 DOMAIN,gspe1-ssl.ls.apple.com,Global
-PROCESS-NAME,News,Global
 USER-AGENT,AppleNews*,Global
 USER-AGENT,com.apple.news*,Global
 DOMAIN-SUFFIX,apple.news,Global
