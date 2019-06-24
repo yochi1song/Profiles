@@ -572,6 +572,8 @@ URL-REGEX,^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage
 # C
 # > China CITIC Bank
 URL-REGEX,^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php
+# > China IC Bank
+URL-REGEX,^https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 # > China Merchants Bank
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com/ClientFaceService\/preCacheAdvertise\.json
 URL-REGEX,^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/getAdvertisement\.json
@@ -843,9 +845,10 @@ URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/getFullScreenPic
 URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/adsBlacklist
 URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/getQQNewsRemoteConfig
 # >> Tencent WeChat
-URL-REGEX,^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_complaint
-URL-REGEX,^https?:\/\/mp\.weixin\.qq.com\/mp\/advertisement_report
-URL-REGEX,^https?:\/\/mp\.weixin\.qq.com\/mp\/ad_video
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad_complaint
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/advertisement_report
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad_video
+URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?f=
 # > Thunder
 URL-REGEX,^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/
 # > TV_Home
