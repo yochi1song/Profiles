@@ -680,7 +680,7 @@ URL-REGEX,^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/
 # > Keep
 URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads\/
 # > Kingsoft WPS
-^https?:/\/\counter\.ksosoft.com\/ad\.php
+URL-REGEX,^https?:\/\/counter\.ksosoft.com\/ad\.php
 URL-REGEX,^https?:\/\/ios\.wps\.cn\/ad-statistics-service
 URL-REGEX,^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/
 URL-REGEX,^https?:\/\/.+\.kingsoft-office-service\.com\/ad
@@ -918,8 +918,8 @@ URL-REGEX,^https?:\/\/a\.qiumibao\.com\/activities\/config\.php
 URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 # > 知乎 (118.89.204.190)
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
-URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time_launch)
-URL-REGEX,^https?:\/\/.+\/commercial_api\/(launch|real_time_launch)
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time)
+URL-REGEX,^https?:\/\/.+\/commercial_api\/(launch|real_time)
 # > 追书神器
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
