@@ -8,7 +8,7 @@ Windows：[Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)
 
 iOS：[Surge](https://itunes.apple.com/app/apple-store/id1329879957?mt=8) | [Quantumult](https://itunes.apple.com/app/apple-store/id1252015438?mt=8) | [Kitsunebi](https://itunes.apple.com/app/apple-store/id1446584073?mt=8) | [Shadowrocket](https://itunes.apple.com/app/apple-store/id932747118?mt=8) | [Pepi(ShadowRay)](https://itunes.apple.com/app/apple-store/id1283082051?mt=8) 
 
-Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=zh) | [Surfboard](https://manual.getsurfboard.com/cn/introduction)
+Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=zh)
 
 ## 说明
 
@@ -40,14 +40,17 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 **下载**
 
+- 移动设备长按版本名即可「拷贝」链接进行导入
+- 有自定义规则需求方才使用「快捷指令」
+
 |                             应用                             |                            标准版                            |                            专业版                            |                            回国版                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                            Clash                             |                              无                              | [Global](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/Global.yml) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/BacktoCN.yml) |
+|                            Clash                             |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/Pro.yml) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/BacktoCN.yml) |
 |                          Kitsunebi                           | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/BacktoCN.conf) |
 | Quantumult \| [快捷指令](https://www.icloud.com/shortcuts/44f0cffd3ddf422ea28fb94380cec417) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Pro.conf) \| [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/BacktoCN.conf) \| [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) |
 |                         Quantumult X                         |                              无                              | [Pro](https://github.com/ConnersHua/Profiles/raw/master/Quantumult/X/Pro.conf) \| [Rewrite](https://github.com/ConnersHua/Profiles/raw/master/Quantumult/X/Rewrite.conf)<br />[Filter Remote](https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/Filter) |                              无                              |
 | Shadowrocket \| Pepi \| [快捷指令](https://www.icloud.com/shortcuts/b50d84fb063e469891f8600ab089a684) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/BacktoCN.conf) |
-| Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56)<br />Surfboard | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/BacktoCN.conf) |
+| Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/BacktoCN.conf) |
 | Surge 3+ \| [快捷指令](https://www.icloud.com/shortcuts/5e2e1a366a5e457ca60170925736ba68) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
 
 ## 感谢
