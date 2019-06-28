@@ -389,6 +389,7 @@ USER-AGENT,Roam*,PROXY
 DOMAIN-SUFFIX,appsto.re,PROXY
 # >> TestFlight
 DOMAIN,beta.itunes.apple.com,PROXY
+DOMAIN,testflight.apple.com,PROXY
 # >> iBooks Store download
 DOMAIN,books.itunes.apple.com,PROXY
 # >> iTunes Store Moveis Trailers
