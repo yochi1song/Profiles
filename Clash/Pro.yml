@@ -33,18 +33,12 @@ experimental:
 
 # DNS 设置
 dns:
-  enable: true # set true to enable dns (default is false)
-  ipv6: false # default is false
+  enable: true
   listen: 0.0.0.0:53
-  enhanced-mode: fake-ip # redir-host or fake-ip
-  # fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  enhanced-mode: fake-ip
   nameserver:
-   - 117.50.10.10
    - 119.29.29.29
    - 223.5.5.5
-  # fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-   # - tls://8.8.4.4
-   # - tls://1.0.0.1
 
 # Clash for Windows
 cfw-bypass:
