@@ -13,43 +13,113 @@ allow-lan: false
 # 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
 mode: Rule
 
-# 设置日志输出级别 (默认级别：info，级别越高日志输出量越大，越倾向于调试)
-# 四个级别：silent / info / warning / error / debug
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: info
 
-# Clash 的 RESTful API
+# clash 的 RESTful API
 external-controller: 127.0.0.1:9090
+
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `${API}/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# external-ui: folder
+
+# RESTful API 的口令 (可选)
+secret: ""
+
+# DNS 设置
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+   - 119.29.29.29
+   - 223.5.5.5
+# clash DNS 请求逻辑：
+# (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+# (2) clash 将选取 nameserver 列表内，解析最快的结果。
+# (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+#
+# 因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
+# 但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
+# 
+# 注意：
+# (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 开头的 DNS 服务器，但是通常对于国内没有太大必要。
+# (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
+
+# Clash for Windows
+cfw-bypass:
+  - qq.com
+  - music.163.com
+  - '*.music.126.net'
+  - localhost
+  - 127.*
+  - 10.*
+  - 172.16.*
+  - 172.17.*
+  - 172.18.*
+  - 172.19.*
+  - 172.20.*
+  - 172.21.*
+  - 172.22.*
+  - 172.23.*
+  - 172.24.*
+  - 172.25.*
+  - 172.26.*
+  - 172.27.*
+  - 172.28.*
+  - 172.29.*
+  - 172.30.*
+  - 172.31.*
+  - 192.168.*
+  - <local>
+cfw-latency-timeout: 5000
 
 # 代理节点
 Proxy:
 # 更多协议配置示例：https://github.com/Dreamacro/clash/blob/master/README.md
-# Shadowsocks
+
 # 加密算法推荐：AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305
+
+# Shadowsocks
 - { name: "1", type: ss, server: 1.2.4.8, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
+
 # Shadowsocks + OBFS
 - name: "2"
   type: ss
-  server: 1.2.4.8
+  server: server
   port: 443
   cipher: AEAD_CHACHA20_POLY1305
   password: "password"
   plugin: obfs
   plugin-opts:
     mode: tls # or http
-    host: yunjiasu-cdn.net
-# V2Ray(WSS)
-- { name: "3", type: vmess, server: v2ray.cool, port: 443, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 32, cipher: auto, network: ws, ws-path: /v2ray.cool/, tls: true }
+    # host: bing.com
+
+# Shadowsocks + V2Ray Plugin
+- name: "3"
+  type: ss
+  server: server
+  port: 443
+  cipher: AEAD_CHACHA20_POLY1305
+  password: "password"
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket # no QUIC now
+    # tls: true # wss
+    # skip-cert-verify: true
+    # host: bing.com
+    # path: "/"
+    # headers:
+    #   custom: value
+
+# Project V(V2Ray) VMess(Websocket + TLS)
+- { name: "4", type: vmess, server: v2ray.cool, port: 443, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 32, cipher: auto, network: ws, ws-path: /v2ray.cool/, tls: true }
 
 # 代理组策略
 Proxy Group:
 # url-test 通过对 URL 对速度进行基准测试，自动选择最快的节点。
-- { name: "UrlTest", type: url-test, proxies: ["1", "2", "3"], url: "http://www.gstatic.com/generate_204", interval: 300 }
-
-# fallback 和 url-test 类似，按优先级选择可使用的节点，当 1 不可用时使用 2，以此类推
-# - { name: "FallBack", type: fallback, proxies: ["1", "2", "3"], url: "http://www.gstatic.com/generate_204", interval: 300 }
-
-# load-balance: 负载均衡
-# - { name: "LoadBalance", type: load-balance, proxies: ["1", "2", "3"] }
+- { name: "UrlTest", type: url-test, proxies: ["1", "2", "3","4"], url: "http://www.gstatic.com/generate_204", interval: 300 }
 
 # 代理节点选择
 - { name: "PROXY", type: select, proxies: ["UrlTest","1", "2", "3"] }
