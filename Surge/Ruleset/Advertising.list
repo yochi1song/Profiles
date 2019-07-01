@@ -5,8 +5,8 @@ DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,analysis
 
 DOMAIN-SUFFIX,51.la
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,cnzz.com
