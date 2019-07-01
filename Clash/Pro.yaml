@@ -185,7 +185,7 @@ Rule:
 - DOMAIN-SUFFIX,zhengjian.org,REJECT
 - DOMAIN-SUFFIX,zhuichaguoji.org,REJECT
 
-# Internet Service Provider Hijacking Protection 运营商劫持保护
+# Internet Service Provider Hijacking 运营商劫持
 - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
 - DOMAIN-SUFFIX,186078.com,Hijacking
 - DOMAIN-SUFFIX,189zj.cn,Hijacking
@@ -327,7 +327,7 @@ Rule:
 - IP-CIDR,220.115.251.25/32,Hijacking
 - IP-CIDR,222.73.156.235/32,Hijacking
 
-# Blocklist 黑名单
+# Infamous 声名狼藉
 - DOMAIN-SUFFIX,kuaizip.com,Hijacking
 - DOMAIN-SUFFIX,mackeeper.com,Hijacking
 # > Adobe
