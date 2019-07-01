@@ -693,7 +693,7 @@ URL-REGEX,^https?:\/\/.+\/allOne\.php\?ad_name
 # > 知乎
 URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/community-ad\/
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/(launch|real_time)
-URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/(launch|real_time)
+URL-REGEX,^https?:\/\/.+\/commercial_api\/(launch|real_time)
 # > 追书神器
 URL-REGEX,^https?:\/\/(api|b)\.zhuishushenqi\.com\/advert
 URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/splashes\/ios
