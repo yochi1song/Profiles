@@ -131,7 +131,7 @@ DOMAIN-SUFFIX,enanyang.my
 DOMAIN-SUFFIX,esoir.be
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,feedly.com
-DOMAIN-SUFFIX,files.wordpress.com
+DOMAIN-SUFFIX,firech.at
 DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flitto.com
 DOMAIN-SUFFIX,foreignpolicy.com
@@ -182,6 +182,7 @@ DOMAIN-SUFFIX,kodingen.com
 DOMAIN-SUFFIX,lemonde.fr
 DOMAIN-SUFFIX,lepoint.fr
 DOMAIN-SUFFIX,lihkg.com
+DOMAIN-SUFFIX,listennotes.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,livestream.com
 DOMAIN-SUFFIX,logmein.com
@@ -199,7 +200,9 @@ DOMAIN-SUFFIX,myspacecdn.com
 DOMAIN-SUFFIX,nanyang.com
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,newstapa.org
+DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nii.ac.jp
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nofile.io
 DOMAIN-SUFFIX,now.com
@@ -214,6 +217,7 @@ DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,on.cc
 DOMAIN-SUFFIX,orientaldaily.com.my
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,paltalk.com
@@ -221,6 +225,7 @@ DOMAIN-SUFFIX,pbxes.com
 DOMAIN-SUFFIX,pcdvd.com.tw
 DOMAIN-SUFFIX,pchome.com.tw
 DOMAIN-SUFFIX,pcloud.com
+DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,player.fm
@@ -278,15 +283,19 @@ DOMAIN-SUFFIX,v2ray.com
 DOMAIN-SUFFIX,viber.com
 DOMAIN-SUFFIX,videopress.com
 DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,voachinese.com
+DOMAIN-SUFFIX,voanews.com
 DOMAIN-SUFFIX,voxer.com
 DOMAIN-SUFFIX,vzw.com
 DOMAIN-SUFFIX,w3schools.com
+DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,wattpad.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,wikimapia.org
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,wire.com
+DOMAIN-SUFFIX,wordpress.com
 DOMAIN-SUFFIX,workflow.is
 DOMAIN-SUFFIX,worldcat.org
 DOMAIN-SUFFIX,wsj.com
@@ -301,6 +310,7 @@ DOMAIN-SUFFIX,yesasia.com
 DOMAIN-SUFFIX,yes-news.com
 DOMAIN-SUFFIX,yomiuri.co.jp
 DOMAIN-SUFFIX,you-get.org
+DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zeronet.io
