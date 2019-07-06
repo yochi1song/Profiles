@@ -26,7 +26,7 @@ external-controller: 127.0.0.1:9090
 # external-ui: folder
 
 # RESTful API 的口令 (可选)
-secret: ""
+# secret: ""
 
 # DNS 设置
 dns:
@@ -72,12 +72,12 @@ Proxy:
 # 加密算法推荐：AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305
 
 # Shadowsocks
-- { name: "1", type: ss, server: 1.2.4.8, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
+- { name: "1", type: ss, server: 1.2.4.8, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", udp: true }
 
 # Shadowsocks + OBFS
 - name: "2"
   type: ss
-  server: server
+  server: 1.2.4.8
   port: 443
   cipher: AEAD_CHACHA20_POLY1305
   password: "password"
@@ -89,7 +89,7 @@ Proxy:
 # Shadowsocks + V2Ray Plugin
 - name: "3"
   type: ss
-  server: server
+  server: 1.2.4.8
   port: 443
   cipher: AEAD_CHACHA20_POLY1305
   password: "password"
@@ -104,7 +104,7 @@ Proxy:
     #   custom: value
 
 # Project V(V2Ray) VMess(Websocket + TLS)
-- { name: "4", type: vmess, server: v2ray.cool, port: 443, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 32, cipher: auto, network: ws, ws-path: /v2ray.cool/, tls: true }
+- { name: "4", type: vmess, server: v2ray.cool, port: 443, uuid: a3482e88-686a-4a58-8126-99c9df64b7bf, alterId: 7, cipher: auto, network: ws, ws-path: /v2ray.cool/, tls: true }
 
 # 代理组策略
 Proxy Group:
