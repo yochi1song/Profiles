@@ -532,6 +532,9 @@ Rule:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 - DOMAIN-KEYWORD,google,PROXY
 - DOMAIN-KEYWORD,blogspot,PROXY
+# > Microsoft
+- DOMAIN-SUFFIX,onedrive.live.com,PROXY
+- DOMAIN-SUFFIX,xboxlive.com,PROXY
 # > Facebook
 - DOMAIN-SUFFIX,cdninstagram.com,PROXY
 - DOMAIN-SUFFIX,fb.com,PROXY
@@ -587,6 +590,7 @@ Rule:
 - DOMAIN-SUFFIX,881903.com,PROXY
 - DOMAIN-SUFFIX,9cache.com,PROXY
 - DOMAIN-SUFFIX,9gag.com,PROXY
+- DOMAIN-SUFFIX,abc.com,PROXY
 - DOMAIN-SUFFIX,abc.net.au,PROXY
 - DOMAIN-SUFFIX,abebooks.com,PROXY
 - DOMAIN-SUFFIX,amazon.co.jp,PROXY
@@ -622,7 +626,6 @@ Rule:
 - DOMAIN-SUFFIX,booklive.jp,PROXY
 - DOMAIN-SUFFIX,books.com.tw,PROXY
 - DOMAIN-SUFFIX,box.com,PROXY
-- DOMAIN-SUFFIX,brookings.edu,PROXY
 - DOMAIN-SUFFIX,businessinsider.com,PROXY
 - DOMAIN-SUFFIX,bwh1.net,PROXY
 - DOMAIN-SUFFIX,castbox.fm,PROXY
@@ -684,6 +687,7 @@ Rule:
 - DOMAIN-SUFFIX,gov.tw,PROXY
 - DOMAIN-SUFFIX,gumroad.com,PROXY
 - DOMAIN-SUFFIX,hbg.com,PROXY
+- DOMAIN-SUFFIX,heroku.com,PROXY
 - DOMAIN-SUFFIX,hightail.com,PROXY
 - DOMAIN-SUFFIX,hk01.com,PROXY
 - DOMAIN-SUFFIX,hkbf.org,PROXY
@@ -698,7 +702,6 @@ Rule:
 - DOMAIN-SUFFIX,i-cable.com,PROXY
 - DOMAIN-SUFFIX,icij.org,PROXY
 - DOMAIN-SUFFIX,icoco.com,PROXY
-- DOMAIN-SUFFIX,id.heroku.com,PROXY
 - DOMAIN-SUFFIX,imgur.com,PROXY
 - DOMAIN-SUFFIX,initiummall.com,PROXY
 - DOMAIN-SUFFIX,insecam.org,PROXY
@@ -721,7 +724,6 @@ Rule:
 - DOMAIN-SUFFIX,lepoint.fr,PROXY
 - DOMAIN-SUFFIX,lihkg.com,PROXY
 - DOMAIN-SUFFIX,listennotes.com,PROXY
-- DOMAIN-SUFFIX,live.com,PROXY
 - DOMAIN-SUFFIX,livestream.com,PROXY
 - DOMAIN-SUFFIX,logmein.com,PROXY
 - DOMAIN-SUFFIX,mail.ru,PROXY
@@ -838,7 +840,6 @@ Rule:
 - DOMAIN-SUFFIX,worldcat.org,PROXY
 - DOMAIN-SUFFIX,wsj.com,PROXY
 - DOMAIN-SUFFIX,wsj.net,PROXY
-- DOMAIN-SUFFIX,xboxlive.com,PROXY
 - DOMAIN-SUFFIX,xhamster.com,PROXY
 - DOMAIN-SUFFIX,xnxx.com,PROXY
 - DOMAIN-SUFFIX,xvideos.com,PROXY
@@ -859,8 +860,6 @@ Rule:
 - DOMAIN-KEYWORD,wikileaks,PROXY
 
 # (Region-Restricted Access Denied)
-- DOMAIN-SUFFIX,abc.com,PROXY
-- DOMAIN-SUFFIX,abc.net.au,PROXY
 - DOMAIN-SUFFIX,apartmentratings.com,PROXY
 - DOMAIN-SUFFIX,apartments.com,PROXY
 - DOMAIN-SUFFIX,bankmobilevibe.com,PROXY
@@ -889,6 +888,7 @@ Rule:
 - DOMAIN-SUFFIX,jcpenney.com,PROXY
 - DOMAIN-SUFFIX,jiehua.tv,PROXY
 - DOMAIN-SUFFIX,kknews.cc,PROXY
+- DOMAIN-SUFFIX,mailfence.com,PROXY
 - DOMAIN-SUFFIX,nationwide.com,PROXY
 - DOMAIN-SUFFIX,nbc.com,PROXY
 - DOMAIN-SUFFIX,nexon.com,PROXY
@@ -927,7 +927,6 @@ Rule:
 - DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # >> Dictionary
 - DOMAIN,lookup-api.apple.com,PROXY
-# PROCESS-NAME,LookupViewService,PROXY
 # >> Apple News and Apple Map TOMTOM Version
 - DOMAIN,gspe1-ssl.ls.apple.com,PROXY
 # USER-AGENT,AppleNews*,PROXY
@@ -983,6 +982,13 @@ Rule:
 - DOMAIN-SUFFIX,youtu.be,PROXY
 - DOMAIN-SUFFIX,yt.be,PROXY
 - DOMAIN-SUFFIX,ytimg.com,PROXY
+# > Microsoft
+- DOMAIN-SUFFIX,1drv.com,PROXY
+- DOMAIN-SUFFIX,1drv.ms,PROXY
+- DOMAIN-SUFFIX,livefilestore.com,PROXY
+- DOMAIN-SUFFIX,storage.msn.com,PROXY
+- DOMAIN-SUFFIX,live.net,PROXY
+- DOMAIN-SUFFIX,live.com,PROXY
 # > Other
 - DOMAIN-SUFFIX,0rz.tw,PROXY
 - DOMAIN-SUFFIX,4bluestones.biz,PROXY
@@ -1026,6 +1032,7 @@ Rule:
 - DOMAIN-SUFFIX,newsblur.com,PROXY
 - DOMAIN-SUFFIX,now.im,PROXY
 - DOMAIN-SUFFIX,redditlist.com,PROXY
+- DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 - DOMAIN-SUFFIX,signal.org,PROXY
 - DOMAIN-SUFFIX,sparknotes.com,PROXY
 - DOMAIN-SUFFIX,streetvoice.com,PROXY
@@ -1061,7 +1068,6 @@ Rule:
 - DOMAIN-SUFFIX,office.com,DIRECT
 - DOMAIN-SUFFIX,outlookmobile.com,DIRECT
 - DOMAIN-SUFFIX,sfx.ms,DIRECT
-- DOMAIN-SUFFIX,sharepoint.com,DIRECT
 - DOMAIN-SUFFIX,s-microsoft.com,DIRECT
 - DOMAIN-SUFFIX,visualstudio.com,DIRECT
 - DOMAIN-SUFFIX,windows.net,DIRECT
