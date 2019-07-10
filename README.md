@@ -63,6 +63,10 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 - [Shadowrocket 导入配置及安装证书](https://medium.com/circumvention-technology/import-profile-on-shadowrocket-f183cd4e95ae)
 - [Kitsunebi(Android) 导入配置](https://medium.com/circumvention-technology/import-profile-on-kitsunebi-android-3089026a037a)
 
+------
+
+
+
 ### DNS 设置
 
 - 运营商 DNS 及公共 DNS 共存设置为：`119.29.29.29,223.5.5.5,system`
@@ -74,6 +78,10 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 首先目前海外 DNS 基本在国内没有节点会导致 CDN **解析不准确**如解析到香港节点（包括腾讯的 119.28.28.28因运营商没有对路由进行更新所导致）
 
 其次很多人觉得海外公共 DNS 干净，而实际情况是被污染的域名仍旧污染部分重灾区运营商还对海外 DNS 请求完全进行抢答，所以没有意义。
+
+------
+
+
 
 ### 常见问题
 
@@ -87,7 +95,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 > 3.关于知乎避免强制「App 内打开」
 
-此功能目前仅 Surge 用户可用，默认规则已带有一个较为不错且不影响 App 使用的规则，如你想使用桌面版网页的知乎（但会影响 App）可以在「Header Rewrite」加入以下，并删除另一条知乎的复写
+此功能目前仅 Surge 用户可用，若想使用桌面版网页的知乎（但会影响 App）可以在「Header Rewrite」加入以下
 
 ```
 ^https?://www\.zhihu\.com header-replace User-Agent Mozilla/5.0  (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like  Gecko) Version/12.0.2 Safari/605.1.15
@@ -113,9 +121,13 @@ api*.tiktokv.com,*.musical.ly
 
 [关于解锁 Apple News 区域限制](https://chua.pro/unlock-apple-news-regional-restrictions/)
 
+------
+
+
+
 ### 关于去广告
 
-#### ⚠️ 1.为什么 Youtube、知乎、微博等应用（存在于 MitM 域名列表）无法使用？
+#### ⚠️ 为什么 Youtube、知乎、微博等应用（存在于 MitM 域名列表）无法使用？
 
 ⚠️ 如使用去广告规则并且开启了「HTTPS 解密(MitM)」功能
 
@@ -123,9 +135,9 @@ api*.tiktokv.com,*.musical.ly
 
 ⚠️ 还要到系统「设置」>「通用」>「关于本机」中底部的「证书信任设置」中信任所安装的证书！！！
 
-#### 2.为什么某应用还是有广告
+#### 为什么某应用还是有广告
 
-**缓存**
+**1.缓存**
 
 有些应用会**将广告缓存**，如果在使用规则前应用就已经缓存了广告，所以你需要：
 
@@ -137,7 +149,7 @@ api*.tiktokv.com,*.musical.ly
 - 需要实时开着类 Surge 应用托管网络
 - 即便一直开着，但在遇到信号断开重连、蜂窝数据和 Wi-Fi 网络切换时会有一些网络请求先于类 Surge 应用加载导致广告出现，怎么办？看上面两步。
 
-**功能**
+**2.功能**
 
 广告阻止不仅于使用 [Rule] 规则，有的广告需要 [URL Rewrite] 和 [MITM]，这就意味着：
 
@@ -146,7 +158,7 @@ api*.tiktokv.com,*.musical.ly
 - Surge 虽然支持 [URL Rewrite] 和 [MITM]，但对于个别应用如优酷、腾讯视频（部分）的请求（TUN）无法处理。
 - Quantumult 虽然支持 [URL Rewrite] 和 [MITM]，但需要在「更多 > 附加功能」中开启「激进阻止」以开启更全面的支持否则同 Surge 效果一样，另外 Quantumult 对于 IP 的 Server Name 不会进行 MitM，所以对于个别应用如瑞幸咖啡也无效。
 
-**其他**
+**3.其他**
 
 > Youtube 去广告会造成以下问题
 
@@ -158,6 +170,10 @@ api*.tiktokv.com,*.musical.ly
 ```
 *.googlevideo.com
 ```
+
+------
+
+
 
 ## 感谢
 
