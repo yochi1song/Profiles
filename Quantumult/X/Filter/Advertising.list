@@ -104,7 +104,6 @@ DOMAIN,adashbc.ut.taobao.com,REJECT
 DOMAIN,adash-c.ut.taobao.com,REJECT
 DOMAIN,adashxgc.ut.taobao.com,REJECT
 DOMAIN,adashx4yt.m.taobao.com,REJECT
-DOMAIN,apoll.m.taobao.com,REJECT
 DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
 DOMAIN,tunion-api.m.taobao.com,REJECT
 # > AutoHome
